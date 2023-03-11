@@ -1,0 +1,12 @@
+Command::
+
+npm Install:
+npm install -g newman 
+
+
+Sample Command:
+
+newman run Bugresistance.postman_collection.json -e Halishahar.postman_environment.json
+
+Report generate
+newman run Bugresistance.postman_collection.json -e Halishahar.postman_environment.json -r cli,html
